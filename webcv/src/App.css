@@ -1,0 +1,59 @@
+.App {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.sideBar {
+  width: 25%;
+  height: 100vh;
+  position: fixed;
+}
+
+.mainContainer {
+  width: 75%;
+  background-color: #fafafa;
+  height: 100vh;
+  margin-left: 25%;
+  transition: 300ms ease-in-out;
+  position: relative;
+}
+.mainContainer .firstCorner {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  clip-path: polygon(21% 0, 0 0, 0 20%);
+  background: #f73d93;
+  top: 0;
+  left: 0;
+}
+
+.mainContainer .lastCorner {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  bottom: 0;
+  right: 0;
+  background: #f73d93;
+  clip-path: polygon(100% 76%, 77% 100%, 100% 100%);
+}
+
+.mainContent {
+  padding: 1em 3em;
+  background: #fcfcfc 0% 0% no-repeat padding-box;
+  border-radius: 1%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
