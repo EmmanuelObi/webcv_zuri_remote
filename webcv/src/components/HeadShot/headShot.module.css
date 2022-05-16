@@ -7,6 +7,7 @@
 }
 .headshot_container img {
   width: 90%;
+  height: 350px;
   object-fit: cover;
   object-position: center;
 }
@@ -39,4 +40,26 @@
 .headshot_container .contact_links a:hover {
   transform: rotate(20deg);
   color: #f73d93;
+}
+
+.CVbtn {
+  width: 90%;
+  padding: 15px 0px;
+  margin-top: 40px;
+  cursor: pointer;
+  background-color: #f73d93;
+  outline: none;
+  border: none;
+  color: #fff;
+  font-family: "Poppins";
+  font-size: 14px;
+  border-radius: 6px;
+  transition: 300ms ease-in-out;
+  text-decoration: none;
+  text-align: center;
+}
+.CVbtn:hover {
+  background: transparent;
+  opacity: 0.8;
+  border: 1px solid #f73d93;
 }

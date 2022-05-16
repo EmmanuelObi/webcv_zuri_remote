@@ -53,6 +53,9 @@ const HeadShot = () => {
           <GitHubIcon fontSize="large" />
         </a>
       </div>
+      <a href="#!" download className={classes.CVbtn}>
+        Toggle CV
+      </a>
     </div>
   );
 };

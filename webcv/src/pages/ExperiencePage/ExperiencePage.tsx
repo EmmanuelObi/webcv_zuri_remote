@@ -72,13 +72,6 @@ const ExperiencePage = () => {
       </div>
     </div>
   );
-
-  //   Frontend Engineer, Hotels.Ng
-  // 08/2021 – 10/2021
-  //  |
-  // Remote, Nigeria
-  //
-  //
 };
 
 export default ExperiencePage;

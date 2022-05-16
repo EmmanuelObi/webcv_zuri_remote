@@ -8,8 +8,8 @@ const SkillsPage = () => {
       <div className={classes.bar}></div>
       <p className={classes.info}>
         <b>Technical -</b> HTML5, CSS3(Bootstrap, Sass, Gsap), JavaScript,
-        ReactJs, Material UI, Chakra UI, Styled Components, Google, Agile
-        methodologies, Technical Documentation, Active Learning
+        TypeScript, ReactJs, Material UI, Chakra UI, Styled Components, Google,
+        Agile methodologies, Technical Documentation, Active Learning
       </p>
       <p className={classes.info}>
         <b>Soft -</b> Oral & Written Communication, Team Collaboration, Team
