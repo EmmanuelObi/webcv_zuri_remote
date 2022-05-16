@@ -1,0 +1,21 @@
+.profilePage {
+  width: 80%;
+  margin: 50px auto;
+}
+.profilePage h2 {
+  color: #16003b;
+  font-size: 24px;
+  margin: 5px 0;
+}
+
+.profilePage .bar {
+  height: 3px;
+  width: 100%;
+  background-color: #f73d93;
+  margin-bottom: 30px;
+}
+
+.profilePage .info {
+  font-size: 18px;
+  line-height: 35px;
+}

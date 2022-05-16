@@ -1,0 +1,26 @@
+.skills {
+  width: 80%;
+  margin: 50px auto;
+}
+.skills h2 {
+  color: #16003b;
+  font-size: 24px;
+  margin: 5px 0;
+}
+
+.skills .bar {
+  height: 3px;
+  width: 100%;
+  background-color: #f73d93;
+  margin-bottom: 30px;
+}
+
+.skills .info {
+  font-size: 16px;
+  line-height: 35px;
+}
+.job {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

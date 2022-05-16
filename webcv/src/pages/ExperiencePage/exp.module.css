@@ -1,0 +1,28 @@
+.experiencePage {
+  width: 80%;
+  margin: 50px auto;
+}
+.experiencePage h2 {
+  color: #16003b;
+  font-size: 24px;
+  margin: 5px 0;
+}
+
+.experiencePage .bar {
+  height: 3px;
+  width: 100%;
+  background-color: #f73d93;
+  margin-bottom: 30px;
+}
+.experiencePage .expo {
+  padding: 0px 10px;
+  min-height: 100px;
+}
+.experiencePage .job {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.expo li {
+  font-size: 15px;
+}

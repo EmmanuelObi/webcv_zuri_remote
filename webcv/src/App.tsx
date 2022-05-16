@@ -12,15 +12,15 @@ import SkillsPage from "./pages/SkillsPage/SkillsPage";
 function App() {
   return (
     <div className="App">
-      <div className="sideBar">
-        <SideBar />
-      </div>
-      <div className="mainContainer">
-        <div className="firstCorner"></div>
-        <div className="lastCorner"></div>
-        <Header />
-        <div className="mainContent">
-          <Router>
+      <Router>
+        <div className="sideBar">
+          <SideBar />
+        </div>
+        <div className="mainContainer">
+          <Header />
+          <div className="mainContent">
+            <div className="firstCorner"></div>
+            <div className="lastCorner"></div>
             <Routes>
               <Route path="/*" element={<ProfilePage />} />
               <Route path="/experience" element={<ExperiencePage />} />
@@ -28,9 +28,9 @@ function App() {
               <Route path="/projects" element={<ProjectsPage />} />
               <Route path="/education" element={<EducationPage />} />
             </Routes>
-          </Router>
+          </div>
         </div>
-      </div>
+      </Router>
     </div>
   );
 }
